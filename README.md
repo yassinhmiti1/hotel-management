@@ -298,31 +298,6 @@ http://localhost:5173
 
 ---
 
-## 🔗 API Communication
-
-The frontend communicates with Laravel through REST API endpoints.
-
-The API uses JSON for data exchange.
-
-Example API endpoints:
-
-| Method | Endpoint | Description |
-|---|---|---|
-| POST | `/api/v1/login` | User login |
-| POST | `/api/v1/logout` | User logout |
-| GET | `/api/v1/rooms` | Get all rooms |
-| POST | `/api/v1/rooms` | Create a room |
-| PUT | `/api/v1/rooms/{id}` | Update a room |
-| DELETE | `/api/v1/rooms/{id}` | Delete a room |
-| GET | `/api/v1/clients` | Get all clients |
-| GET | `/api/v1/reservations` | Get reservations |
-| POST | `/api/v1/reservations` | Create a reservation |
-| GET | `/api/v1/payments` | Get payments |
-
-These endpoints represent the planned API structure and must be implemented in Laravel.
-
----
-
 ## 🌿 Git Workflow
 
 The project uses Git and GitHub for collaborative development.
