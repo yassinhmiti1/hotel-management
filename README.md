@@ -15,7 +15,6 @@ The application aims to simplify hotel operations by managing rooms, clients, re
 - [Project Structure](#-project-structure)
 - [Prerequisites](#-prerequisites)
 - [Installation](#-installation)
-- [Environment Configuration](#-environment-configuration)
 - [Database Setup](#-database-setup)
 - [Running the Application](#-running-the-application)
 - [API Communication](#-api-communication)
@@ -235,43 +234,6 @@ Install JavaScript dependencies:
 ```bash
 npm install
 ```
-
----
-
-## 🔐 Environment Configuration
-
-### Backend Configuration
-
-Open `backend/.env` and configure your database connection:
-
-```env
-APP_NAME="Hotel Management"
-APP_ENV=local
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://127.0.0.1:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=hotel_management
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-Make sure that the database `hotel_management` exists in MySQL.
-
-### Frontend Configuration
-
-Create a `.env` file inside the `frontend` directory:
-
-```env
-VITE_API_URL=http://127.0.0.1:8000/api/v1
-```
-
-The frontend uses this URL to communicate with the Laravel API.
-
-**Important:** The API base URL must match the actual Laravel API configuration.
 
 ---
 
