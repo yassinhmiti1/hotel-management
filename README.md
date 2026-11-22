@@ -86,7 +86,6 @@ Access to protected resources is controlled by the Laravel backend.
 - JavaScript
 - Axios
 - React Router DOM
-- Tailwind
 - HTML5 / CSS3
 
 ### Development Tools
