@@ -102,48 +102,6 @@ Access to protected resources is controlled by the Laravel backend.
 
 ---
 
-## 📂 Project Structure
-
-```text
-hotel-management/
-│
-├── backend/                 # Laravel 13 Backend
-│   ├── app/
-│   ├── bootstrap/
-│   ├── config/
-│   ├── database/
-│   │   ├── migrations/
-│   │   ├── seeders/
-│   │   └── factories/
-│   ├── routes/
-│   │   ├── api.php
-│   │   └── web.php
-│   ├── tests/
-│   ├── .env.example
-│   └── composer.json
-│
-├── frontend/                # React + Vite Frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── layouts/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   ├── context/
-│   │   ├── hooks/
-│   │   └── routes/
-│   ├── .env.example
-│   └── package.json
-│
-├── docs/                    # Project Documentation
-│
-├── .gitignore
-└── README.md
-```
-
----
-
 ## ⚙️ Prerequisites
 
 Before installing the project, make sure you have installed:
