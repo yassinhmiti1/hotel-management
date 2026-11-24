@@ -14,4 +14,14 @@ class Reservations extends Model
         'guests_count',
         'nights'
     ];
+
+    public function client()
+    {
+        return $this->belongsTo(Client::class);
+    }
+
+    public function room()
+    {
+        return $this->belongsTo(Room::class);
+    }
 }

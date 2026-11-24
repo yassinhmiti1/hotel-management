@@ -12,4 +12,9 @@ class Rooms extends Model
         'floor',
         'status'
     ];
+
+    public function roomType()
+    {
+        return $this->belongsTo(RoomType::class);
+    }
 }
