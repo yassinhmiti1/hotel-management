@@ -12,4 +12,8 @@ class Payments extends Model
         'payment_method',
         'payment_date'
     ];
+
+    public function reservation(){
+        return $this->belongsTo(Reservations::class);
+    }
 }

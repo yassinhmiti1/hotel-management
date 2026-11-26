@@ -12,4 +12,8 @@ class Facture extends Model
         'issue_date',
         'subtotal'
     ];
+
+    public function reservation(){
+        return $this->belongsTo(Reservations::class);
+    }
 }

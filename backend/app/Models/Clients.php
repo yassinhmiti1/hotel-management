@@ -15,4 +15,9 @@ class Clients extends Model
         'identity_type',
         'identity_member'
     ];
+
+    public function users()
+    {
+        return $this->belongsTo(Users::class);
+    }
 }
